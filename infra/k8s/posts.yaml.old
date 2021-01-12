@@ -1,0 +1,9 @@
+# backup: config file to create a pod
+apiVersion: v1
+kind: Pod
+metadata:
+  name: posts
+spec:
+  containers:
+    - name: posts
+      image: weijuzheng/posts:0.0.1
